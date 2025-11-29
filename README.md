@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @soudeep_mazumder
-- 👀 I’m interested in coding languages
-- 🌱 I’m currently learning in 10+2
+- 👀 I’m interested in coding languages, data analysis, data science, gen-AI, machine learning.
+- 🌱 I’m currently a computer science engineering student. 
 :):
 --->
