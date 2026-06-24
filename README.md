@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sOuDeeP08&label=Profile+Views&color=58A6FF&style=flat" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=sOuDeeP08&label=Profile+Views&color=58A6FF&style=flat" />
   <img src="https://img.shields.io/github/followers/sOuDeeP08?label=Followers&style=flat&color=58A6FF" />
 </p>
 
@@ -31,12 +31,13 @@
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/T--SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
@@ -67,21 +68,52 @@
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Snake Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sOuDeeP08/sOuDeeP08/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sOuDeeP08/sOuDeeP08/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sOuDeeP08/sOuDeeP08/output/github-contribution-grid-snake.svg"/>
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sOuDeeP08/sOuDeeP08/output/github-contribution-grid-snake.svg"/>
+  </picture>
 </p>
 
-> **To enable the snake animation**, create a GitHub Action in your profile repo:
-> `.github/workflows/snake.yml` — search "GitHub contribution snake action" for the workflow YAML.
+<!-- ═══════════════════════════════════════════════════════════
+     SNAKE SETUP — do this once:
+     1. In your profile repo (sOuDeeP08/sOuDeeP08), go to
+        Settings → Actions → General → Allow all actions ✅
+     2. Create file: .github/workflows/snake.yml  with content:
+
+     name: Generate Snake
+     on:
+       schedule: [{cron: "0 0 * * *"}]
+       workflow_dispatch:
+     jobs:
+       generate:
+         runs-on: ubuntu-latest
+         steps:
+           - uses: Platane/snk@v3
+             with:
+               github_user_name: sOuDeeP08
+               outputs: |
+                 dist/github-contribution-grid-snake.svg
+                 dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+           - uses: crazy-max/ghaction-github-pages@v3
+             with:
+               target_branch: output
+               build_dir: dist
+             env:
+               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+     3. Run it manually once from Actions tab → it auto-runs daily after that.
+     ═══════════════════════════════════════════════════════════ -->
 
 ---
 
-## 🏆 GitHub Trophies
+## 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sOuDeeP08&theme=tokyonight&no-frame=true&row=1&column=6" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sOuDeeP08&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
 ---
@@ -90,12 +122,13 @@
 
 <p align="center">
   <a href="https://github.com/sOuDeeP08">
-    <img src="https://img.shields.io/badge/GitHub-sOuDeeP08-181717?style=for-the-badge&logo=github"/>
+    <img src="https://img.shields.io/badge/GitHub-sOuDeeP08-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <!-- Add your LinkedIn below -->
-  <!-- <a href="https://linkedin.com/in/YOUR_ID">
+  <!-- Uncomment & fill in your LinkedIn:
+  <a href="https://linkedin.com/in/YOUR_ID">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a> -->
+  </a>
+  -->
 </p>
 
 ---
